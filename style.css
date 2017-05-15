@@ -53,4 +53,28 @@ h1{
 	text-align: center;
 	padding-top: 10px;
 	font-family: 'Playfair Display', serif;
+	font-size: 2em;
+}
+
+p{
+	color: black;
+	font-size: 1em;
+}
+
+.mainwelcome{
+	width: 700px;
+	text-align: center;
+	margin: auto;
+	margin-top: 10px;
+	
+}
+
+.mainabout{
+	align-content: left;
+	width: 350px;
+	margin-left: 250px;
+}
+
+.taylorpicture {
+	width: 100px;
 }
