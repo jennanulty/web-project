@@ -59,26 +59,34 @@ h1{
 p{
 	color: black;
 	font-size: 1em;
+	line-height: 1.5em;
 }
 
 .mainwelcome{
 	width: 700px;
 	text-align: center;
 	margin: auto;
-	margin-top: 10px;
+	margin-top: 25px;
 	
 }
 
 .mainabout{
-	margin: 10px auto;
-	width: 700px;
+	margin: 25px auto;
+	width: 710px;
 }
 
 .mainabout p {
 	width: 350px;
 	float: left;
+	padding-right: 10px;
+}
+
+.aboutspan {
+	margin-top: 60px;
+	font-size: 1em;
 }
 
 .taylorpicture {
 	width: 350px;
+
 }
