@@ -70,11 +70,15 @@ p{
 }
 
 .mainabout{
-	align-content: left;
+	margin: 10px auto;
+	width: 700px;
+}
+
+.mainabout p {
 	width: 350px;
-	margin-left: 250px;
+	float: left;
 }
 
 .taylorpicture {
-	width: 100px;
+	width: 350px;
 }
