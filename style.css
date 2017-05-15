@@ -6,6 +6,7 @@
 	font-family: 'Playfair Display', serif;
 }
 
+/* Nav bar */
 nav{
 	width: 100%;
 	height: 70px;
@@ -24,6 +25,8 @@ li {
 	font-weight: 600;
 }
 
+
+/* links */
 a:link {
 	text-decoration: none;
 	color: darkseagreen;
@@ -43,6 +46,7 @@ a:hover{
 	transition: opacity .2s ease-in-out;
 }
 
+/* main page */
 .mainimage {
 	width: 100%;
 	height: 50%;
@@ -67,12 +71,14 @@ p{
 	text-align: center;
 	margin: auto;
 	margin-top: 25px;
+	margin-bottom: 80px;
 	
 }
 
 .mainabout{
 	margin: 25px auto;
 	width: 710px;
+	margin-bottom: 80px;
 }
 
 .mainabout p {
@@ -82,11 +88,18 @@ p{
 }
 
 .aboutspan {
-	margin-top: 60px;
-	font-size: 1em;
+	margin-top: 10px;
+	display: block;
 }
 
 .taylorpicture {
 	width: 350px;
+}
 
+.mainpackages {
+	width: 700px;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 80px;
+	
 }
