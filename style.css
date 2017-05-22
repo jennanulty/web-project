@@ -141,14 +141,12 @@ p{
 
 .b2bblock{
 	width: 33%;
-	float: left;
-	display: block;
+	display: inline-block;
 }
 
 .eventblock{
 	width: 33%;
-	float: left;
-	display: block;
+	display: inline-block;
 }
 
 /*accordian*/
@@ -190,10 +188,11 @@ p{
 	color: red;
 }
 
-.footer {
+footer {
 	height: 100px;
 	background-color: darkseagreen;
-	position: fixed;
-	bottom:0;
-	width:100%;
+	clear: both;
+	margin-top: 100px;
+    position: relative;
+    z-index: 10;
 }
