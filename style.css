@@ -199,6 +199,42 @@ p{
 	margin-bottom: 10px;
 }
 
+/* CONTACT */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    color: darkseagreen;
+    padding: 12px 20px;
+    border: solid;
+	background-color: white;
+	font-size: 17px;
+	font-weight: 400;
+}
+
+input[type=submit]:hover {
+    background-color: darkseagreen;
+	font-size: 17px;
+	font-weight: 400;
+	color: white;
+}
+
+.formcontainer {
+    padding: 20px;
+	width: 33%;
+	display:inline-block;
+	clear:left;
+}
+
+/* FOOTER */
 
 footer {
 	height: 100px;
