@@ -1,0 +1,96 @@
+Last login: Mon May 15 09:22:49 on ttys000
+grc-finland:~ jnulty$ cd desktop
+grc-finland:desktop jnulty$ cd web_project
+grc-finland:web_project jnulty$ git commit -am "added main image"
+[master 25b5fbd] added main image
+ 2 files changed, 71 insertions(+), 1 deletion(-)
+grc-finland:web_project jnulty$ git commit -am "added div classes"
+[master 8765a6e] added div classes
+ 2 files changed, 34 insertions(+)
+grc-finland:web_project jnulty$ git commit -am "adjusted about centering"
+[master 2378444] adjusted about centering
+ 2 files changed, 17 insertions(+), 5 deletions(-)
+grc-finland:web_project jnulty$ git commit -am "added span tag"
+[master 872caa3] added span tag
+ 2 files changed, 13 insertions(+), 4 deletions(-)
+grc-finland:web_project jnulty$ git push
+Counting objects: 16, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (16/16), 2.62 KiB | 0 bytes/s, done.
+Total 16 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas: 100% (6/6), done.
+To https://github.com/jennanulty/web-project.git
+   3654d03..872caa3  master -> master
+grc-finland:web_project jnulty$ git commit -am "added notes in html and css"
+[master eecfbd7] added notes in html and css
+ 2 files changed, 30 insertions(+), 4 deletions(-)
+grc-finland:web_project jnulty$ git commit -am "added packages page"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Untracked files:
+	images/
+	packages.html
+
+nothing added to commit but untracked files present
+grc-finland:web_project jnulty$ git add -A
+grc-finland:web_project jnulty$ git commit -am "added packages page"
+[master 0e8c265] added packages page
+ 5 files changed, 12 insertions(+)
+ create mode 100644 images/Taylor.jpg
+ create mode 100644 images/mainphoto.jpg
+ create mode 100644 images/mainphotooptimized.jpg
+ create mode 100644 images/mainphotooptimizedsmaller.jpg
+ create mode 100644 packages.html
+grc-finland:web_project jnulty$ git push
+Counting objects: 12, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 1.12 MiB | 1.78 MiB/s, done.
+Total 12 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 2 local objects.
+To https://github.com/jennanulty/web-project.git
+   872caa3..0e8c265  master -> master
+grc-finland:web_project jnulty$ git commit -am "added content to packages page and tried to add responsive toggles"
+[master 4baa834] added content to packages page and tried to add responsive toggles
+ 2 files changed, 42 insertions(+), 1 deletion(-)
+grc-finland:web_project jnulty$ git ush
+git: 'ush' is not a git command. See 'git --help'.
+
+Did you mean this?
+	push
+grc-finland:web_project jnulty$ git push
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 3.04 KiB | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/jennanulty/web-project.git
+   0e8c265..4baa834  master -> master
+grc-finland:web_project jnulty$ git log
+commit 4baa8343fa3c2bc38be622da566350dd41cb8fd4
+Author: Jenna Nulty <jennanulty@gmail.com>
+Date:   Mon May 15 11:58:06 2017 -0700
+
+    added content to packages page and tried to add responsive toggles
+
+commit 0e8c265746dc89df73517fb56c17593428b05e47
+Author: Jenna Nulty <jennanulty@gmail.com>
+Date:   Mon May 15 11:47:31 2017 -0700
+
+    added packages page
+
+commit eecfbd7556bfb75cd1fa93848cd09edf6d004c9a
+Author: Jenna Nulty <jennanulty@gmail.com>
+Date:   Mon May 15 11:44:05 2017 -0700
+
+    added notes in html and css
+
+commit 872caa307e925c0f5ba1a05b2db5bfa1006a195f
+Author: Jenna Nulty <jennanulty@gmail.com>
+Date:   Mon May 15 11:30:35 2017 -0700
+
+    added span tag
+:
