@@ -185,6 +185,20 @@ p{
 }
 
 
+/* ABOUT */
+
+.abouttay{
+	display:block;
+	width: 45%;
+	font-size: 14px;
+	margin: auto;
+}
+
+.abouttay p {
+	margin-bottom: 10px;
+}
+
+
 footer {
 	height: 100px;
 	background-color: darkseagreen;
