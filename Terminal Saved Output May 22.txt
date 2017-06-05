@@ -1,0 +1,223 @@
+Last login: Mon May 22 09:16:05 on console
+grc-finland:~ jnulty$ cd desktop
+grc-finland:desktop jnulty$ cd web_project
+grc-finland:web_project jnulty$ git init
+Reinitialized existing Git repository in /Users/jnulty/Desktop/web_project/.git/
+grc-finland:web_project jnulty$ git add -A
+grc-finland:web_project jnulty$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   .DS_Store
+	new file:   Terminal Saved Output May 15.txt
+	new file:   images/backtobasics.png
+	new file:   images/circletaylor.png
+	new file:   images/eventplanning.png
+	new file:   images/horizimage.png
+	new file:   images/horizontal.ai
+	new file:   images/packages.ai
+	new file:   images/packagesmainphoto.jpg
+	new file:   images/wholepackage.png
+	modified:   index.html
+	modified:   packages.html
+	modified:   style.css
+
+grc-finland:web_project jnulty$ git commit -am "added new files and code to pages"
+[master 3780492] added new files and code to pages
+ 13 files changed, 131832 insertions(+), 61 deletions(-)
+ create mode 100644 Terminal Saved Output May 15.txt
+ create mode 100644 images/backtobasics.png
+ create mode 100644 images/circletaylor.png
+ create mode 100644 images/eventplanning.png
+ create mode 100644 images/horizimage.png
+ create mode 100644 images/horizontal.ai
+ create mode 100644 images/packages.ai
+ create mode 100644 images/packagesmainphoto.jpg
+ create mode 100644 images/wholepackage.png
+ rewrite packages.html (95%)
+grc-finland:web_project jnulty$ git push
+Counting objects: 16, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (16/16), 21.62 MiB | 9.07 MiB/s, done.
+Total 16 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 3 local objects.
+To https://github.com/jennanulty/web-project.git
+   4baa834..3780492  master -> master
+grc-finland:web_project jnulty$ git commit -am 
+error: switch `m' requires a value
+usage: git commit [<options>] [--] <pathspec>...
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup <commit>      use autosquash formatted message to fixup specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    -s, --signoff         add Signed-off-by:
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <default>   how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+
+grc-finland:web_project jnulty$ git commit -am "fixed footer css"
+[master fcde758] fixed footer css
+ 2 files changed, 8 insertions(+), 10 deletions(-)
+grc-finland:web_project jnulty$ git commit -am "stylized accordion dl"
+[master 4fd9fb3] stylized accordion dl
+ 2 files changed, 22 insertions(+), 25 deletions(-)
+grc-finland:web_project jnulty$ git commit -am "added about page"
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Untracked files:
+	about.html
+
+nothing added to commit but untracked files present
+grc-finland:web_project jnulty$ git add -A
+grc-finland:web_project jnulty$ git commit -am "added about page"
+[master 9436383] added about page
+ 1 file changed, 11 insertions(+)
+ create mode 100644 about.html
+grc-finland:web_project jnulty$ git commit -am "added content to about page"
+[master fadd938] added content to about page
+ 4 files changed, 58 insertions(+), 3 deletions(-)
+grc-finland:web_project jnulty$ git add -A
+grc-finland:web_project jnulty$ git commit -am "added contact page"
+[master b475c9f] added contact page
+ 4 files changed, 26 insertions(+), 1 deletion(-)
+ create mode 100644 contact.html
+ create mode 100644 images/taylorabout.jpg
+grc-finland:web_project jnulty$ commit -am "added form"
+-bash: commit: command not found
+grc-finland:web_project jnulty$ git commit -am "added form"
+[master fc90990] added form
+ 5 files changed, 62 insertions(+), 4 deletions(-)
+grc-finland:web_project jnulty$ git push
+Counting objects: 31, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (31/31), done.
+Writing objects: 100% (31/31), 106.08 KiB | 0 bytes/s, done.
+Total 31 (delta 20), reused 0 (delta 0)
+remote: Resolving deltas: 100% (20/20), completed with 5 local objects.
+To https://github.com/jennanulty/web-project.git
+   3780492..fc90990  master -> master
+grc-finland:web_project jnulty$ git commit -am "added footer content"
+[master 85c8e72] added footer content
+ 5 files changed, 76 insertions(+), 11 deletions(-)
+grc-finland:web_project jnulty$ git commit -am "FINALLY fixed footer content"
+[master c3ad98b] FINALLY fixed footer content
+ 2 files changed, 4 insertions(+), 11 deletions(-)
+grc-finland:web_project jnulty$ git commit -am "added info to index page"
+[master 62f2588] added info to index page
+ 4 files changed, 32 insertions(+), 10 deletions(-)
+grc-finland:web_project jnulty$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	images/emailgreen.png
+	images/emailwhite.png
+	images/instagramgreen.png
+	images/instagramwhite.png
+	images/packagesicon.png
+	images/phonegreen.png
+	images/phonewhite.png
+
+nothing added to commit but untracked files present (use "git add" to track)
+grc-finland:web_project jnulty$ git add -A
+grc-finland:web_project jnulty$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   images/emailgreen.png
+	new file:   images/emailwhite.png
+	new file:   images/instagramgreen.png
+	new file:   images/instagramwhite.png
+	new file:   images/packagesicon.png
+	new file:   images/phonegreen.png
+	new file:   images/phonewhite.png
+
+grc-finland:web_project jnulty$ git commit -am "added files
+> "
+[master 35007cd] added files
+ 7 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 images/emailgreen.png
+ create mode 100644 images/emailwhite.png
+ create mode 100644 images/instagramgreen.png
+ create mode 100644 images/instagramwhite.png
+ create mode 100644 images/packagesicon.png
+ create mode 100644 images/phonegreen.png
+ create mode 100644 images/phonewhite.png
+grc-finland:web_project jnulty$ git push
+Counting objects: 27, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (27/27), done.
+Writing objects: 100% (27/27), 72.21 KiB | 0 bytes/s, done.
+Total 27 (delta 15), reused 0 (delta 0)
+remote: Resolving deltas: 100% (15/15), completed with 7 local objects.
+To https://github.com/jennanulty/web-project.git
+   fc90990..35007cd  master -> master
+grc-finland:web_project jnulty$ git log
+commit 35007cd9f2887227adb36435b104647804a912bb
+Author: Jenna Nulty <jennanulty@gmail.com>
+Date:   Mon May 22 11:53:42 2017 -0700
+
+    added files
+
+commit 62f2588882d820866b455f2082571360192c54a3
+Author: Jenna Nulty <jennanulty@gmail.com>
+Date:   Mon May 22 11:53:09 2017 -0700
+
+    added info to index page
+
+commit c3ad98b34afdb6a3555e2242f57c949262c250aa
+Author: Jenna Nulty <jennanulty@gmail.com>
+Date:   Mon May 22 11:33:39 2017 -0700
+
+    FINALLY fixed footer content
+
+commit 85c8e7235a2ea67fc0d778e8fa3bc15c993a486c
+Author: Jenna Nulty <jennanulty@gmail.com>
+Date:   Mon May 22 11:23:57 2017 -0700
+
+    added footer content
+:
