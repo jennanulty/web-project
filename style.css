@@ -85,7 +85,7 @@ a:hover{
 }
 
 /*section two*/
-
+/*image from Lauren Williamson*/
 .sectiontwo{
 	background-image: url(images/packagesmainphoto.jpg);
 	width: 100%;
@@ -126,7 +126,7 @@ a:hover{
 }
 
 /*section three*/
-
+/*image by Ellie Tyner*/
 .sectionthree{
 	background-image: url(images/taylorandkyleoptomized.jpg);
 	width: 100%;
@@ -253,7 +253,7 @@ p{
 
 /* ABOUT */
 
-
+/*images taken by Ellie Tyner*/
 .aboutwrap{
 	margin: 25px auto;
 	width: 910px;
@@ -276,7 +276,7 @@ p{
 
 
 /* DAY OF */
-
+/*image from Unsplash.com*/
 .dayofimage{
 	background-image: url(images/dayofcoordinatormainimage.jpg);
 	width: 100%;
@@ -290,7 +290,7 @@ p{
 }
 
 /* EVENT PLANNING */
-
+/*image from Unsplash.com*/
 .eventplanning{
 	background-image: url(images/eventplanning.jpg);
 	width: 100%;
@@ -313,7 +313,7 @@ p{
 	clear:left;
 	font-size: 14px;
 }
-
+/*image from Unsplash.com*/
 .wholepackageimage{
 	background-image: url(images/wholepackageoptomized.jpg);
 	width: 100%;
@@ -385,6 +385,7 @@ input:checked ~ .tab-content {
 
 /* CONTACT */
 
+/*image used from Unsplash.com*/
 .contactimage{
 	background-image: url(images/contactmain.jpg);
 	width: 100%;
