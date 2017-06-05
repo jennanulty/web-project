@@ -255,19 +255,21 @@ p{
 
 
 .aboutwrap{
-	margin: 0px auto;
+	margin: 25px auto;
+	width: 910px;
+	margin-bottom: 80px;
 }
 
 .abouttayp{
 	font-size: 14px;
 	line-height: 2em;
-	width: 450px;
-	padding-left: 50px;
+	width: 485px;
+	padding-left: 20px;
 	display: inline-block;
 }
 
 .abouttay{
-	width: 450px;
+	width: 400px;
 	display: inline-block;
 }
 
@@ -381,6 +383,19 @@ input:checked ~ .tab-content {
 
 }
 
+/* CONTACT */
+
+.contactimage{
+	background-image: url(images/contactmain.jpg);
+	width: 100%;
+	height: 500px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
 
 
 /* FOOTER */
